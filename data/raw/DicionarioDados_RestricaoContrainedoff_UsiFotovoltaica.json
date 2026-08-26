@@ -1,0 +1,69 @@
+{
+	"titulo": "DicionarioDados_RestricaoContrainedoff_UsiFotovoltaica",
+	"dicionario_simplificado": [
+		{
+			"descricao": "Identificador do Subsistema",
+			"codigo": "id_subsistema"
+		},
+		{
+			"descricao": "Nome do Subsistema",
+			"codigo": "nom_subsistema"
+		},
+		{
+			"descricao": "Sigla do Estado",
+			"codigo": "id_estado"
+		},
+		{
+			"descricao": "Nome do Estado",
+			"codigo": "nom_estado"
+		},
+		{
+			"descricao": "Nome da Usina ou Conjunto de Usinas",
+			"codigo": "nom_usina"
+		},
+		{
+			"descricao": "Identificador da Usina ou Conjunto no ONS",
+			"codigo": "id_ons"
+		},
+		{
+			"descricao": "Código Único do Empreendimento de Geração (CEG), estabelecido pela ANEEL",
+			"codigo": "ceg"
+		},
+		{
+			"descricao": "Data/Hora",
+			"codigo": "din_instante"
+		},
+		{
+			"descricao": "Valor da Geração, em MWmed",
+			"codigo": "val_geracao"
+		},
+		{
+			"descricao": "Valor da Geração Limitada por alguma Restrição, em MWmed",
+			"codigo": "val_geracaolimitada"
+		},
+		{
+			"descricao": "Valor da Disponibilidade Verificada no Tempo Real, em MWmed",
+			"codigo": "val_disponibilidade"
+		},
+		{
+			"descricao": "Valor da Geração de Referência (ou estimada), em MWmed",
+			"codigo": "val_geracaoreferencia"
+		},
+		{
+			"descricao": "Valor da Geração de Referência Final, em MWmed",
+			"codigo": "val_geracaoreferenciafinal"
+		},
+		{
+			"descricao": "Código da razão da restrição, podendo ser: REL – Razão de indisponibilidade externa (elétrica). CNF – Razão de atendimento a requisitos de confiabilidade. ENE – Razão energética PAR - Restrição indicada no parecer de acesso",
+			"codigo": "cod_razaorestricao"
+		},
+		{
+			"descricao": "Código da origem da restrição, podendo ser: LOC – Local. SIS – Sistêmica",
+			"codigo": "cod_origemrestricao"
+		},
+		{
+			"descricao": "Detalhamento do motivo da restrição de geração",
+			"codigo": "dsc_restricao"
+		}
+	]
+}

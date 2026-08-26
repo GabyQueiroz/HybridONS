@@ -1,0 +1,55 @@
+{
+  "splits": {
+    "train_inicio": "2024-04-03 04:00:00",
+    "train_fim": "2026-03-31 19:00:00",
+    "valid_inicio": "2026-04-01 05:00:00",
+    "valid_fim": "2026-06-30 19:00:00",
+    "test_inicio": "2026-07-01 05:00:00",
+    "test_fim": "2026-08-25 19:00:00",
+    "train_n": 900000,
+    "valid_n": 164292,
+    "test_n": 103677
+  },
+  "regressao_taxa_restricao_h1": {
+    "valid": {
+      "n": 164292,
+      "mae_modelo": 0.10011481572853244,
+      "rmse_modelo": 0.15883542993464236,
+      "r2_modelo": 0.7462900316682404,
+      "mae_persistencia": 0.14763965340014837,
+      "rmse_persistencia": 0.2565557801484355,
+      "r2_persistencia": 0.3380786754291859
+    },
+    "test": {
+      "n": 103677,
+      "mae_modelo": 0.09863000931161887,
+      "rmse_modelo": 0.156145295157409,
+      "r2_modelo": 0.7646478729996956,
+      "mae_persistencia": 0.1540519189099583,
+      "rmse_persistencia": 0.2603536556144218,
+      "r2_persistencia": 0.3456837869873879
+    }
+  },
+  "classificacao_evento_restricao_h1": {
+    "valid": {
+      "n": 164292,
+      "prevalencia_evento": 0.5770944416039734,
+      "roc_auc": 0.9838022345544779,
+      "average_precision": 0.9888549363184991,
+      "precision_05": 0.952502239442244,
+      "recall_05": 0.9308526346875923,
+      "f1_05": 0.9415530034299004,
+      "captura_eventos_top_10pct_risco": 0.17327975361768552
+    },
+    "test": {
+      "n": 103677,
+      "prevalencia_evento": 0.6584970629937209,
+      "roc_auc": 0.982655374187009,
+      "average_precision": 0.9914786492718273,
+      "precision_05": 0.9464814595427082,
+      "recall_05": 0.9361808088353767,
+      "f1_05": 0.9413029551027622,
+      "captura_eventos_top_10pct_risco": 0.15186536010897747
+    }
+  }
+}

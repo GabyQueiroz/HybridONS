@@ -1,0 +1,153 @@
+{
+  "split_temporal": {
+    "train_inicio": "2024-04-03 04:30:00",
+    "train_fim": "2026-03-31 19:00:00",
+    "valid_inicio": "2026-04-01 05:00:00",
+    "valid_fim": "2026-06-30 19:00:00",
+    "test_inicio": "2026-07-01 05:00:00",
+    "test_fim": "2026-08-25 19:00:00",
+    "train_n": 280000,
+    "valid_n": 164292,
+    "test_n": 103677
+  },
+  "gradient_boosting": {
+    "valid_reg": {
+      "modelo": "HistGradientBoosting",
+      "n": 164292,
+      "mae": 0.10074941908698719,
+      "rmse": 0.158631466371951,
+      "r2": 0.7469412007937486,
+      "mae_persistencia": 0.14763965340014837,
+      "rmse_persistencia": 0.2565557801484355,
+      "r2_persistencia": 0.3380786754291859
+    },
+    "test_reg": {
+      "modelo": "HistGradientBoosting",
+      "n": 103677,
+      "mae": 0.09961509222242891,
+      "rmse": 0.15585439613861932,
+      "r2": 0.7655239791767421,
+      "mae_persistencia": 0.1540519189099583,
+      "rmse_persistencia": 0.2603536556144218,
+      "r2_persistencia": 0.3456837869873879
+    },
+    "valid_clf": {
+      "modelo": "HistGradientBoosting",
+      "n": 164292,
+      "prevalencia": 0.5770944416039734,
+      "roc_auc": 0.9836104091644706,
+      "average_precision": 0.9886951422845947,
+      "precision_05": 0.950819143099943,
+      "recall_05": 0.9322765050837447,
+      "f1_05": 0.9414565304220477
+    },
+    "test_clf": {
+      "modelo": "HistGradientBoosting",
+      "n": 103677,
+      "prevalencia": 0.6584970629937209,
+      "roc_auc": 0.9820334640769229,
+      "average_precision": 0.9911906121334575,
+      "precision_05": 0.9538040634483996,
+      "recall_05": 0.9344963454468223,
+      "f1_05": 0.9440514945250074
+    }
+  },
+  "mlp": {
+    "valid_reg": {
+      "modelo": "MLP",
+      "n": 164292,
+      "mae": 0.13383994958610293,
+      "rmse": 0.1998266200136999,
+      "r2": 0.5984409202111441,
+      "mae_persistencia": 0.14763965340014837,
+      "rmse_persistencia": 0.2565557801484355,
+      "r2_persistencia": 0.3380786754291859
+    },
+    "test_reg": {
+      "modelo": "MLP",
+      "n": 103677,
+      "mae": 0.13219800069918133,
+      "rmse": 0.1971828340418396,
+      "r2": 0.6246827459018724,
+      "mae_persistencia": 0.1540519189099583,
+      "rmse_persistencia": 0.2603536556144218,
+      "r2_persistencia": 0.3456837869873879
+    },
+    "valid_clf": {
+      "modelo": "MLP",
+      "n": 164292,
+      "prevalencia": 0.5770944416039734,
+      "roc_auc": 0.9768638070774412,
+      "average_precision": 0.9832414321203506,
+      "precision_05": 0.9376682608557945,
+      "recall_05": 0.9367485128464751,
+      "f1_05": 0.9372081611979043
+    },
+    "test_clf": {
+      "modelo": "MLP",
+      "n": 103677,
+      "prevalencia": 0.6584970629937209,
+      "roc_auc": 0.9753863776190723,
+      "average_precision": 0.9873623553839415,
+      "precision_05": 0.9435563478850205,
+      "recall_05": 0.9380556898243764,
+      "f1_05": 0.9407979786108825
+    }
+  },
+  "melhores_politicas_top10": [
+    {
+      "k": 10,
+      "politica": "gb_taxa",
+      "perda_capturada": 2496050.9310000003,
+      "perda_oraculo_topk": 2624171.092,
+      "perda_total": 5473660.953000002,
+      "captura_vs_total": 0.4560112422805373,
+      "eficiencia_vs_oraculo": 0.9511769025310184
+    },
+    {
+      "k": 10,
+      "politica": "offline_q",
+      "perda_capturada": 2450996.762,
+      "perda_oraculo_topk": 2624171.092,
+      "perda_total": 5473660.953000002,
+      "captura_vs_total": 0.44778015720112496,
+      "eficiencia_vs_oraculo": 0.9340079880736678
+    },
+    {
+      "k": 10,
+      "politica": "mlp_hibrido",
+      "perda_capturada": 2414912.874,
+      "perda_oraculo_topk": 2624171.092,
+      "perda_total": 5473660.953000002,
+      "captura_vs_total": 0.44118788042150026,
+      "eficiencia_vs_oraculo": 0.9202574029422315
+    },
+    {
+      "k": 10,
+      "politica": "persistencia",
+      "perda_capturada": 2339198.2010000004,
+      "perda_oraculo_topk": 2624171.092,
+      "perda_total": 5473660.953000002,
+      "captura_vs_total": 0.4273553333108682,
+      "eficiencia_vs_oraculo": 0.8914046070133297
+    },
+    {
+      "k": 10,
+      "politica": "gb_evento",
+      "perda_capturada": 2172949.114,
+      "perda_oraculo_topk": 2624171.092,
+      "perda_total": 5473660.953000002,
+      "captura_vs_total": 0.3969827749029744,
+      "eficiencia_vs_oraculo": 0.8280516162320409
+    },
+    {
+      "k": 10,
+      "politica": "sazonal_diaria",
+      "perda_capturada": 2006872.0440000002,
+      "perda_oraculo_topk": 2624171.092,
+      "perda_total": 5473660.953000002,
+      "captura_vs_total": 0.3666416428113025,
+      "eficiencia_vs_oraculo": 0.7647641764357948
+    }
+  ]
+}

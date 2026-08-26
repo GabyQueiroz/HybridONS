@@ -1,0 +1,211 @@
+{
+  "arquivos_parquet": 29,
+  "linhas": 2830896,
+  "colunas": [
+    "id_subsistema",
+    "nom_subsistema",
+    "id_estado",
+    "nom_estado",
+    "nom_usina",
+    "id_ons",
+    "ceg",
+    "din_instante",
+    "val_geracao",
+    "val_geracaolimitada",
+    "val_disponibilidade",
+    "val_geracaoreferencia",
+    "val_geracaoreferenciafinal",
+    "cod_razaorestricao",
+    "cod_origemrestricao",
+    "arquivo_origem",
+    "dsc_restricao",
+    "ano_mes",
+    "data",
+    "hora",
+    "minuto",
+    "dia_semana",
+    "perda_ref_final_mwmed",
+    "perda_ref_mwmed",
+    "taxa_restricao_ref_final",
+    "taxa_limitacao_disponibilidade"
+  ],
+  "inicio": "2024-04-01 00:00:00",
+  "fim": "2026-08-25 23:30:00",
+  "instantes_unicos": 42096,
+  "usinas_ou_conjuntos_unicos": 87,
+  "nomes_usina_unicos": 101,
+  "estados_unicos": [
+    "BA",
+    "CE",
+    "GO",
+    "MG",
+    "MS",
+    "PB",
+    "PE",
+    "PI",
+    "RN",
+    "SP"
+  ],
+  "subsistemas_unicos": [
+    "NE",
+    "S",
+    "SE"
+  ],
+  "razoes_restricao": {
+    "": 2138317,
+    "ENE": 476380,
+    "CNF": 166904,
+    "REL": 49295
+  },
+  "origens_restricao": {
+    "": 2138317,
+    "SIS": 621913,
+    "LOC": 70666
+  },
+  "missing_pct": {
+    "taxa_restricao_ref_final": 98.631,
+    "perda_ref_final_mwmed": 98.259,
+    "val_geracaoreferenciafinal": 98.259,
+    "taxa_limitacao_disponibilidade": 76.052,
+    "val_geracaolimitada": 75.534,
+    "dsc_restricao": 28.018,
+    "cod_origemrestricao": 0.0,
+    "perda_ref_mwmed": 0.0,
+    "dia_semana": 0.0,
+    "minuto": 0.0,
+    "hora": 0.0,
+    "data": 0.0,
+    "ano_mes": 0.0,
+    "arquivo_origem": 0.0,
+    "id_subsistema": 0.0,
+    "nom_subsistema": 0.0,
+    "val_geracaoreferencia": 0.0,
+    "val_disponibilidade": 0.0,
+    "val_geracao": 0.0,
+    "din_instante": 0.0,
+    "ceg": 0.0,
+    "id_ons": 0.0,
+    "nom_usina": 0.0,
+    "nom_estado": 0.0,
+    "id_estado": 0.0,
+    "cod_razaorestricao": 0.0
+  },
+  "linhas_por_arquivo": [
+    {
+      "arquivo": "RESTRICAO_COFF_FOTOVOLTAICA_2024_04.parquet",
+      "linhas": 79776
+    },
+    {
+      "arquivo": "RESTRICAO_COFF_FOTOVOLTAICA_2024_05.parquet",
+      "linhas": 85920
+    },
+    {
+      "arquivo": "RESTRICAO_COFF_FOTOVOLTAICA_2024_06.parquet",
+      "linhas": 85728
+    },
+    {
+      "arquivo": "RESTRICAO_COFF_FOTOVOLTAICA_2024_07.parquet",
+      "linhas": 90528
+    },
+    {
+      "arquivo": "RESTRICAO_COFF_FOTOVOLTAICA_2024_08.parquet",
+      "linhas": 90768
+    },
+    {
+      "arquivo": "RESTRICAO_COFF_FOTOVOLTAICA_2024_09.parquet",
+      "linhas": 86640
+    },
+    {
+      "arquivo": "RESTRICAO_COFF_FOTOVOLTAICA_2024_10.parquet",
+      "linhas": 91344
+    },
+    {
+      "arquivo": "RESTRICAO_COFF_FOTOVOLTAICA_2024_11.parquet",
+      "linhas": 89280
+    },
+    {
+      "arquivo": "RESTRICAO_COFF_FOTOVOLTAICA_2024_12.parquet",
+      "linhas": 93168
+    },
+    {
+      "arquivo": "RESTRICAO_COFF_FOTOVOLTAICA_2025_01.parquet",
+      "linhas": 96000
+    },
+    {
+      "arquivo": "RESTRICAO_COFF_FOTOVOLTAICA_2025_02.parquet",
+      "linhas": 87360
+    },
+    {
+      "arquivo": "RESTRICAO_COFF_FOTOVOLTAICA_2025_03.parquet",
+      "linhas": 96720
+    },
+    {
+      "arquivo": "RESTRICAO_COFF_FOTOVOLTAICA_2025_04.parquet",
+      "linhas": 93600
+    },
+    {
+      "arquivo": "RESTRICAO_COFF_FOTOVOLTAICA_2025_05.parquet",
+      "linhas": 96720
+    },
+    {
+      "arquivo": "RESTRICAO_COFF_FOTOVOLTAICA_2025_06.parquet",
+      "linhas": 93600
+    },
+    {
+      "arquivo": "RESTRICAO_COFF_FOTOVOLTAICA_2025_07.parquet",
+      "linhas": 96720
+    },
+    {
+      "arquivo": "RESTRICAO_COFF_FOTOVOLTAICA_2025_08.parquet",
+      "linhas": 96720
+    },
+    {
+      "arquivo": "RESTRICAO_COFF_FOTOVOLTAICA_2025_09.parquet",
+      "linhas": 96864
+    },
+    {
+      "arquivo": "RESTRICAO_COFF_FOTOVOLTAICA_2025_10.parquet",
+      "linhas": 102288
+    },
+    {
+      "arquivo": "RESTRICAO_COFF_FOTOVOLTAICA_2025_11.parquet",
+      "linhas": 99360
+    },
+    {
+      "arquivo": "RESTRICAO_COFF_FOTOVOLTAICA_2025_12.parquet",
+      "linhas": 105168
+    },
+    {
+      "arquivo": "RESTRICAO_COFF_FOTOVOLTAICA_2026_01.parquet",
+      "linhas": 106464
+    },
+    {
+      "arquivo": "RESTRICAO_COFF_FOTOVOLTAICA_2026_02.parquet",
+      "linhas": 98112
+    },
+    {
+      "arquivo": "RESTRICAO_COFF_FOTOVOLTAICA_2026_03.parquet",
+      "linhas": 112992
+    },
+    {
+      "arquivo": "RESTRICAO_COFF_FOTOVOLTAICA_2026_04.parquet",
+      "linhas": 112320
+    },
+    {
+      "arquivo": "RESTRICAO_COFF_FOTOVOLTAICA_2026_05.parquet",
+      "linhas": 116064
+    },
+    {
+      "arquivo": "RESTRICAO_COFF_FOTOVOLTAICA_2026_06.parquet",
+      "linhas": 113904
+    },
+    {
+      "arquivo": "RESTRICAO_COFF_FOTOVOLTAICA_2026_07.parquet",
+      "linhas": 119136
+    },
+    {
+      "arquivo": "RESTRICAO_COFF_FOTOVOLTAICA_2026_08.parquet",
+      "linhas": 97632
+    }
+  ]
+}

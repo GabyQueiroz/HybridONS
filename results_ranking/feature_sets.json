@@ -1,0 +1,81 @@
+{
+ "calendar": [
+  "hour",
+  "dow",
+  "month",
+  "doy_sin",
+  "doy_cos"
+ ],
+ "lagged": [
+  "loss_lag1",
+  "loss_lag2",
+  "loss_lag6",
+  "loss_lag12",
+  "loss_lag47",
+  "loss_lag48",
+  "loss_lag96",
+  "rate_lag1",
+  "rate_lag2",
+  "rate_lag6",
+  "rate_lag12",
+  "rate_lag47",
+  "rate_lag48",
+  "rate_lag96",
+  "coded_lag1",
+  "coded_lag2",
+  "coded_lag6",
+  "coded_lag12",
+  "coded_lag47",
+  "coded_lag48",
+  "coded_lag96",
+  "gen_lag1",
+  "gen_lag2",
+  "gen_lag6",
+  "gen_lag12",
+  "gen_lag47",
+  "gen_lag48",
+  "gen_lag96",
+  "ref_lag1",
+  "ref_lag2",
+  "ref_lag6",
+  "ref_lag12",
+  "ref_lag47",
+  "ref_lag48",
+  "ref_lag96",
+  "avail_lag1",
+  "avail_lag2",
+  "avail_lag6",
+  "avail_lag12",
+  "avail_lag47",
+  "avail_lag48",
+  "avail_lag96"
+ ],
+ "current": [
+  "gen",
+  "lim",
+  "avail",
+  "ref",
+  "loss",
+  "rate",
+  "coded"
+ ],
+ "codes_current": [
+  "reason_code",
+  "origin_code"
+ ],
+ "codes_lagged": [
+  "reason_lag1",
+  "coded_lag1",
+  "coded_lag2",
+  "coded_lag6",
+  "coded_lag12",
+  "coded_lag47",
+  "coded_lag48",
+  "coded_lag96"
+ ],
+ "id": [
+  "plant",
+  "state",
+  "subsystem"
+ ]
+}

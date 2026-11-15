@@ -3,3 +3,6 @@ __pycache__/
 .venv/
 .ipynb_checkpoints/
 results/models/
+catboost_info/
+results_ranking/*.parquet
+results_ranking/log_*.txt
